@@ -3,10 +3,11 @@
 ---
 
 **Tujuan Pengerjaan Project**
+
 Membuat sebuah aplikasi manajemen perpustakaan sederhana yang dapat melakukan pendaftaran anggota perpustakaan, pendaftaran buku baru, peminjaman, menampilkan data anggota, buku, dan daftar peminjaman serta melakukan pencarian buku.
 
 **Detail/deskripi task**
-1. Membuat fungsi *create_create_server_connection*, fungsi ini membuat koneksi ke server MySQL.
+1. Membuat fungsi *create_server_connection*, fungsi ini membuat koneksi ke server MySQL.
 2. Membuat fungsi *create_database*, fungsi tersebut digunakan untuk membuat database baru.
 3. Membuat fungsi *create_connect*, fungsi ini digunakan untuk memodifikasi fungsi create_server_connection untuk terhubung langsung ke database.
 4. Membuat fungsi *execute_query*, digunakan untuk mengeksekusi query.
@@ -22,6 +23,7 @@ Membuat sebuah aplikasi manajemen perpustakaan sederhana yang dapat melakukan pe
 14. Membuat fungsi *kembali_buku*, fungsi ini digunakan untuk menghapus data peminjaman buku.
 
 **Cara Running/Penggunaan Program**
+
 Jalankan file main.py di jupyterLab dengan menggunakan perintah `python main.py`. Setelah itu menu utama dari program akan muncul, pilih nomor tugas sesuai kebutuhan anda.
 
 **Hasil Test Case**
@@ -31,7 +33,7 @@ Jalankan file main.py di jupyterLab dengan menggunakan perintah `python main.py`
 2. Pendaftaran buku baru
 <img src="img/pendaftaran_buku_baru.png" width="1000"/>
 
-3. Menampilkan data user setelah insert
+3. Menampilkan data user
 <img src="img/tampil_daftar_user.png" width="1000"/>
 
 4. Menampilkan daftar buku
